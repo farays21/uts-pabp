@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blank page</title>
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+      }
+      .container h1 {
+        font-weight: 900;
+      }
+
+      .back-btn {
+        background: #1f6cb0;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .back-btn:hover {
+        background: #0e4b8b;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>blank page</h1>
+      <p>
+        Mohon maaf, halaman ini belum tersedia. Silakan kembali ke halaman
+        sebelumnya.
+      </p>
+      <button class="back-btn" onclick="history.back()">Kembali</button>
+    </div>
+  </body>
+</html>
